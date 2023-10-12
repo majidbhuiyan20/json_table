@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ok{
+    padding: 2rem;
+}
+.di{
+    display: flex;
+    /* width: 100vw; */
+    flex-direction: row;
+    /* background-color: greenyellow; */
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.sub{
+    height: 1rem;
+}
+
+.fr{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+.forum{
+    border-radius: 8px;
+    width: 40%;
+    height: 85%;
+    background-color: #f6f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.forum p{
+    font-size: 2rem;
+}
+
+.forum form{
+    /* height: 80%; */
+    padding: 3rem;
+}
+
+input[type = "text"]{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px rgb(198, 191, 191) solid;
+    border-radius: 5px;
+}
+
+input[type = "text"]::placeholder{
+    opacity: 30%;
+    font-size: 12px;
+}
+
+input[type = "number"]:focus{
+    /* outline: none; */
+    /* outline-offset: 3px; */
+    outline-style: groove;
+    outline-width: 0.5px;
+    outline-color: #dceedc;
+    /* box-shadow: none; */
+}
+
+
+input[type = "number"]{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px rgb(198, 191, 191) solid;
+    border-radius: 5px;
+}
+
+input[type = "number"]::placeholder{
+    opacity: 30%;
+    font-size: 12px;
+}
+
+input[type = "text"]:focus{
+    /* outline: none; */
+    /* outline-offset: 3px; */
+    outline-style: groove;
+    outline-width: 0.5px;
+    outline-color: #ffffff;
+    /* box-shadow: none; */
+}
+
+input[type = "submit"]{
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    margin: 8px 0 0 0;
+    box-shadow: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #ecea5a;
+    color: white;
+    cursor: pointer;
+}
